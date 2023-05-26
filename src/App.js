@@ -1,6 +1,7 @@
 import React from 'react';
+import './main.js';
 import { Footer,Blog,Possibilty,Features,Header,WhatisRecycling} from './containers';
-import { Navbar, Cta, Brand} from './components';
+import { Navbar,Cta,Brand} from './components';
 
 const App = () => {
   return (
