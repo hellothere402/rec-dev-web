@@ -3,8 +3,7 @@ import './navbar.css'
 
 const Navbar = () => {
   return (
-    <Button variant="contained" color="primary">Button</Button>
-  )
+    <div>navbar</div>  )
 }
 
 export default Navbar

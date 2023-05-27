@@ -1,7 +1,8 @@
 import React from 'react';
-import './main.js';
+import './index.js';
 import { Footer,Blog,Possibilty,Features,Header,WhatisRecycling} from './containers';
 import { Navbar,Cta,Brand} from './components';
+import './App.css';
 
 const App = () => {
   return (
