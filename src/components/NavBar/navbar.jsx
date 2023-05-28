@@ -1,18 +1,53 @@
-import React from 'react'
+import React,{useState} from 'react'
 import {RiMenu3Line,RiCloseLine} from 'react-icons/ri';
 import './navbar.css'
-import logo from '../../assets/logo.png'
+import logo from '../../assets/logo.svg'
+
+const Menu = () => (
+  <>
+  <p><a href="#home">Home</a></p>
+  <p><a href="#possibility">About Us</a></p>
+  <p><a href="#features">How to recycle</a></p>
+  <p><a href="#blog">Resources</a></p>
+  </>
+)
+
 
 // BEM - Block Element Modifier
 
 const Navbar = () => {
+  const [toggleMenu, setToggleMenu] = useState(false)
   return (
-    <div className="Recycling__navbar">
-      <div className="Recycling__navbar-links">
-        <div className="Recycling__navbar-links-logo">
+    <div className="recycling__navbar">
+      <div className="recycling__navbar-links">
+        <div className="recycling__navbar-links-logo">
           <img src={logo} alt="logo" />
           </div>
+        <div className="recycling__navbar-links_container">
+          <Menu />
+         </div>
        </div>
+      <div className="recycling__navbar-sign">
+        <p>Sign in</p>
+        <button type="button">Sign up</button>
+        </div>
+      <div className="recycling__navbar-menu">
+       { toggleMenu
+          ? <RiCloseLine color="#fff" size={27} onClick={() => setToggleMenu(false)} />
+          : <RiMenu3Line color="#fff" size={27} onClick={() => setToggleMenu(true)} />
+        }
+        { toggleMenu && (
+          <div className="recycling__navbar-menu_container scale-up-center">
+            <div className="recycling__navbar-menu_container-links">
+              <Menu />
+              <div className="recycling__navbar-menu_container-links-sign">
+              <p>Sign in</p>
+              <button type="button">Sign up</button>
+          </div>
+            </div>
+          </div> 
+        )}
+        </div>
     </div>  
   )
 }
