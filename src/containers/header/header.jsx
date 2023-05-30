@@ -15,7 +15,7 @@ const Header = () => (
         </div>
 
         <div className="recycling__header-content__people">
-            <img src={people} />
+            <img src={people} alt='people' />
             <p>Join these people in the movement!</p>
         </div>
         

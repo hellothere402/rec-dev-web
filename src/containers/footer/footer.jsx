@@ -13,7 +13,7 @@ const Footer = () => (
     <div className="recycling__footer-links">
       <div className="recycling__footer-links--logo">
   
-        <p> Made by Archie Bruce, intented for the 1.4 & 1.8 standards, </p>
+        <p> Made by Archie Bruce, intented for the 1.4 & 1.8 standards. </p>
       </div>
       <div className="recycling__footer-links_div">
         <h4>Links</h4>

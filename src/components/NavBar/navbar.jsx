@@ -22,7 +22,7 @@ const Navbar = () => {
     <div className="recycling__navbar">
       <div className="recycling__navbar-links">
         <div className="recycling__navbar-links_logo">
-          <img src={logo} />
+          <img src={logo} alt='logo' />
           </div>
         <div className="recycling__navbar-links_container">
           <Menu />
