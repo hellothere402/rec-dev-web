@@ -1,10 +1,11 @@
 import React from 'react'
-import './brand.css'
+import {google, slack,dropbox, shopify} from './imports';
+import './brand.css';
 
 const Brand = () => {
   return (
-    <div>brand</div>
+    <div>hi</div>
   )
-}
+};
 
-export default Brand
+export default Brand;

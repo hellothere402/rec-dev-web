@@ -4,8 +4,7 @@ import { Footer,Blog,Possibilty,Features,Header,WhatisRecycling} from './contain
 import { Navbar,Cta,Brand} from './components';
 import './App.css';
 
-const App = () => {
-  return (
+const App = () => (
     <div className="App">
       <div className="gradient__bg">
       <Navbar />
@@ -21,6 +20,5 @@ const App = () => {
   </div>
 
   );
-}
 
 export default App;

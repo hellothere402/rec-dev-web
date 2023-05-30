@@ -17,11 +17,12 @@ const Menu = () => (
 
 const Navbar = () => {
   const [toggleMenu, setToggleMenu] = useState(false)
+
   return (
     <div className="recycling__navbar">
       <div className="recycling__navbar-links">
-        <div className="recycling__navbar-links-logo">
-          <img src={logo} alt="logo" />
+        <div className="recycling__navbar-links_logo">
+          <img src={logo} />
           </div>
         <div className="recycling__navbar-links_container">
           <Menu />
@@ -40,10 +41,10 @@ const Navbar = () => {
           <div className="recycling__navbar-menu_container scale-up-center">
             <div className="recycling__navbar-menu_container-links">
               <Menu />
+            </div>
               <div className="recycling__navbar-menu_container-links-sign">
               <p>Sign in</p>
               <button type="button">Sign up</button>
-          </div>
             </div>
           </div> 
         )}
