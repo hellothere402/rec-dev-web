@@ -12,9 +12,11 @@ const WhatisRecycling = () => (
       <p>Recycling is the process of converting waste materials into new materials and objects.</p>
     </div>
     <div className="recycling__whatisrecycling-container">
+      <Feature title="what is recycling?" text="Recycling is the process of converting waste materials into new materials and objects." />
+      <Feature title="help the environment" text="Recycling is the process of converting waste materials into new materials and objects." />
+      <Feature title="save the planet" text="Recycling is the process of converting waste materials into new materials and objects." />
       </div>
     </div>
   )
-
 
 export default WhatisRecycling

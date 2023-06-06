@@ -1,10 +1,16 @@
 import React from 'react'
 import './feature.css'
 
-const Feature = () => {
-  return (
-    <div>feature</div>
+const Feature = ({title, text}) => (
+    <div className="recycling__features-container__feature">
+      <div className="recycling__features-container__feature-title">
+        < div/>
+        <h1>{title}</h1>
+        </div>
+        <div className="recycling__features-container_feature-text">
+          <p>{text}</p>
+        </div>
+    </div>
   )
-}
 
 export default Feature
