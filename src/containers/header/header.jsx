@@ -1,6 +1,7 @@
 import React from 'react'
 import './header.css'
-import people from '../../assets/people.png'
+
+
 
 
 const Header = () => (
@@ -15,12 +16,12 @@ const Header = () => (
         </div>
 
         <div className="recycling__header-content__people">
-            <img src={people} alt='people' />
+      
             <p>Join these people in the movement!</p>
         </div>
         
         <div className="recycling__header-img">
-          
+       
         </div>
       </div>
     </div>

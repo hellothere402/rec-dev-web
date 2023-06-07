@@ -1,10 +1,11 @@
 import React from 'react'
+import PossibiltyImage from '../../assets/possibility.png'
 import './possibilty.css'
 
 const Possibilty = () => (
     <div className="recycling__possibility section__padding" id="possibility">
       <div className="recycling__possibility-image">
-         
+        <img src={PossibiltyImage} alt="possibility" />
       </div>
       <div className="recycling__possibility-content">
         <h4>Join Now</h4>
@@ -15,4 +16,4 @@ const Possibilty = () => (
     </div>
   )
 
-export default Possibilty
+export default Possibilty;
