@@ -1,6 +1,5 @@
 import React from 'react'
 import './blog.css'
-import {Article} from '../../components';
 const Blog = () => (
 
     <div className="recycling__blog section__padding" id="blog">
