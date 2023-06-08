@@ -6,18 +6,18 @@ const Brand = () =>  (
   
     <div className="recycling__brand section__padding">
       <div>
-        <img src={google} />
+        <img src={google} alt="google" />
       </div>
       <div>
-        <img src={slack} />
+        <img src={slack} alt="slack" />
       <div>
-        <img src={atlassian} />
+        <img src={atlassian} alt="atlassian" />
       </div>
       <div>
-        <img src={dropbox} />
+        <img src={dropbox} alt="dropbox" />
       </div>
       <div>
-        <img src={shopify} />
+        <img src={shopify} alt="shopify" />
       </div>
     </div>
   </div>
