@@ -1,7 +1,7 @@
 import React,{useState} from 'react'
 import {RiMenu3Line,RiCloseLine} from 'react-icons/ri';
 import './navbar.css'
-import logo from '../../assets/logo.svg'
+import {Screen_Shot_2023} from './import';
 
 const Menu = () => (
   <>
@@ -22,7 +22,7 @@ const Navbar = () => {
     <div className="recycling__navbar">
       <div className="recycling__navbar-links">
         <div className="recycling__navbar-links_logo">
-          <img src={logo} alt='logo' />
+          <img src={Screen_Shot_2023} alt='logo' />
           </div>
         <div className="recycling__navbar-links_container">
           <Menu />
