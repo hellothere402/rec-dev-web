@@ -1,17 +1,17 @@
 import React from 'react'
 import './article.css'
 
-const Article = ({imgUrl, date, text}) => (
+const Article = ({date, text}) => (
     <div className="recycling__blog-container_article">
       <div className="recycling__blog-container_article-image">
-      <img src={imgUrl} alt="blog_image" />
+    
     </div>
     <div className="recycling__blog-container_article-content">
       <div>
         <p>{date}</p>
         <h3>{text}</h3>
       </div>
-      <p>Read more</p>
+      <p>Done.</p>
     </div>
   </div>
   );
