@@ -17,7 +17,7 @@
     height: 100%;
 }
 
-.recycling__possibilty-content {
+.recycling__possibility-content {
     flex: 1;
     display: flex;
    justify-content: flex-end;
@@ -25,7 +25,7 @@
     flex-direction: column;
 }
 
-.recycling__possibilty-content h4 {
+.recycling__possibility-content h4 {
     font-family: var(--font-family);
     font-weight: 500;
     font-size: 16px;
@@ -33,11 +33,11 @@
     color: #71E5FF;
 }
 
-.recycling__possibilty-content h4:last-child {
+.recycling__possibility-content h4:last-child {
     color: #ff8a71;
 }
 
-.recycling__possibilty-content h1 {
+.recycling__possibility-content h1 {
     font-family: var(--font-family);
     font-weight: 800;
     font-size: 34px;

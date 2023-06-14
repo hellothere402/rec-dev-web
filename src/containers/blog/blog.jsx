@@ -5,7 +5,7 @@ const Blog = () => (
 
     <div className="recycling__blog section__padding" id="blog">
       <div className="recycling__blog-heading">
-        <h1 className="gradient__text">View the progress of the website, <br/> I am logging the progress.</h1>
+        <h1 className="gradient__text">View the progress of the website.</h1>
       </div>
       <div className="recycling__blog-container">
         <div className="recycling__blog-container_groupA">

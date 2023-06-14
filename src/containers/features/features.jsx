@@ -24,7 +24,8 @@ const FeaturesData = [
 const Features  = () => (
   <div className="recycling__features section__padding" id="features">
     <div className="recycling__features-heading">
-      <h1>Look at the resources now!</h1>
+      <h1 className="recycling__text">Look at the resources now!</h1>
+      <p>Start to recycle now!</p>
     </div>
     <div className="recycling__features-container">
       {FeaturesData.map((item, index) => ( 

@@ -4,13 +4,13 @@ import './feature.css'
 const Feature = ({title, text}) => (
     <div className="recycling__features-container__feature">
       <div className="recycling__features-container__feature-title">
-        < div/>
+        <div />
         <h1>{title}</h1>
         </div>
         <div className="recycling__features-container_feature-text">
           <p>{text}</p>
         </div>
     </div>
-  )
+  );
 
 export default Feature
