@@ -5,27 +5,27 @@ import { Feature } from '../../components';
 const FeaturesData = [
   {
     title: 'Learn how to recycle',
-    text: 'Learn how to recycle, to make Dunstan High School a better place',
+    text: 'go to this link to learn how to recycle: https://www.thesca.org/connect/blog/how-recycle-and-why-you-should-do-it/',
   },
 
-  { title: 'Click on the resources tab', 
-  text: 'Click on the resources tab to find out more about recycling, and how to do it',
+  { title: 'Learn more about recycling', 
+  text: 'go to this link to learn more about recycling:https://www.britannica.com/science/recycling',
 },
 
-  { title: 'Do you part',
-  text: 'Do your part to make Dunstan High School a better place, by picking up the rubbish across the schools.',
+  { title: 'More resources',
+  text: 'LEARN EVEN MORE ABOUT RECYCLING:https://brightly.eco/blog/what-is-recycling-and-why-is-it-important',
 },
 
-  { title: 'Make a difference',
-  text: 'Make a difference by recycling, and picking up rubbish across the school.',
+  { title: 'EVEN MORE RESOURCES',
+  text: 'go to this link to learn more about recycling:https://www.twinkl.co.nz/teaching-wiki/recycling',
 },
 ];
 
 const Features  = () => (
   <div className="recycling__features section__padding" id="features">
     <div className="recycling__features-heading">
-      <h1 className="recycling__text">Look at the resources now!</h1>
-      <p>Start to recycle now!</p>
+      <h1 className="recycling__text">Look at the resources to learn more.</h1>
+    
     </div>
     <div className="recycling__features-container">
       {FeaturesData.map((item, index) => ( 

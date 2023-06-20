@@ -3,7 +3,7 @@ import './footer.css'
 const Footer = () => (
     <div className="recycling__footer section__padding">
       <div className="recycling__footer-heading">
-        <h1 className="gradient__text">Do your part for the school.</h1>
+        <h1 className="gradient__text">Learn more</h1>
       </div>
 
     <div className="recycling__footer-btn">
@@ -23,7 +23,7 @@ const Footer = () => (
       </div>
       <div className="recycling__footer-links_div">
         <h4> want to ask a question?</h4>
-        <p>Archie Bruce brucearc@dunstan.school.nz</p>
+        <p> brucearc@dunstan.school.nz</p>
       </div>
     </div>
 
