@@ -12,13 +12,12 @@ const Header = () => (
 
         <div className="recycling__header-content__input">
           <input type="email" placeholder="Your Email" />
-          <button type="button">Stay up to date</button>
-         
+          <button type="button">Register Your Interest</button>
+    
         </div>
 
         <div className="recycling__header-content__people">
       
-            <p></p>
         </div>
         
         <div className="recycling__header-img">

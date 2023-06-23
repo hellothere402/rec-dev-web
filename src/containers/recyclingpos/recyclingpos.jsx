@@ -9,9 +9,8 @@ const Recyclingpos = () => (
       </div>
       <div className="recycling__possibility-content">
         
-        <h1 className="gradient__text">Learn about <br /> the processes at Dunstan High School</h1>
-        <p>
-            The process of recycling your waste at Dunstan.</p>
+        <h1 className="gradient__text">Learn about <br /> the processes of Recycling <br /> at Dunstan High School</h1>
+          <p>The following image illustrating the process of Recycling rubbish at Dunstan High School</p>
         
         </div>
     </div>
