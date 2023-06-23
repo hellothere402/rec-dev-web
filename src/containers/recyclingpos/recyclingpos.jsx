@@ -3,7 +3,7 @@ import sustainability from '../../assets/sustainability-13-09142-g001.webp'
 import './recyclingpos.css'
 
 const Recyclingpos = () => (
-    <div className="recycling__possibility section__padding" id="possibility">
+    <div className="recycling__possibility section__padding" id="recyclingpos">
       <div className="recycling__possibility-image">
         <img src={sustainability} alt="possibility" />
       </div>

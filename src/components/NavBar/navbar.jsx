@@ -6,7 +6,7 @@ import {Screen_Shot_2023} from './import';
 const Menu = () => (
   <>
   <p><a href="#home">Home</a></p>
-  <p><a href="#possibility">About Us</a></p>
+  <p><a href="#wr">what is recycling</a></p>
   <p><a href="#recyclingpos">How to recycle</a></p>
   <p><a href="#features">Resources</a></p>
   </>
